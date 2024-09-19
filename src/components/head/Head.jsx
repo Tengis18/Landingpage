@@ -6,11 +6,21 @@ export const Header = () => {
           <img width={150} height={36} src="./Logo.png" alt="" />
         </div>
         <div className="flex gap-[50px] items-center ">
-          <p>About</p>
-          <p>Feateres</p>
-          <p>Pricing</p>
-          <p>Testimonials</p>
-          <p>Help</p>
+          <button>
+            <a href="#Haeder">About</a>
+          </button>
+          <button>
+            <a href="#Costomer">Feateres</a>
+          </button>
+          <button>
+            <a href="#Midell">Pricing</a>
+          </button>
+          <button>
+            <a href="#Contact">Testimonials</a>
+          </button>
+          <button>
+            <a href="#Footer">Help</a>
+          </button>
         </div>
         <div className="flex gap-[20px] items-center">
           <div className="btn btn-ghost rounded-[30px]">Sign in</div>

@@ -1,9 +1,14 @@
 import { FooterIcon, InsdaIcon, TwiterIcon } from "@/app/svg/FooterIcon";
+import Link from "next/link";
+import { Card } from "../midel/card";
 
 export const Footer = () => {
   return (
-    <div className="w-full flex bg-[#F8F8F8] justify-center ">
-      <div className="container flex h-[563px] justify-between">
+    <div className="w-full flex bg-gray-100 justify-center " id="Footer">
+      <div className="absolute mb-32">
+        <Card />
+      </div>
+      <div className="container flex h-[563px] pt-44 justify-between">
         <div>
           <div className="pt-20">
             <img width={150} height={36} src="./Logo.png" alt="" />
@@ -13,9 +18,15 @@ export const Footer = () => {
             </p>
           </div>
           <div className="flex mt-10">
-            <FooterIcon />
-            <TwiterIcon />
-            <InsdaIcon />
+            <Link href={`https://www.facebook.com`}>
+              <FooterIcon />
+            </Link>
+            <Link href={`https://twitter.com`}>
+              <TwiterIcon />
+            </Link>
+            <Link href={`https://www.instagram.com`}>
+              <InsdaIcon />
+            </Link>
           </div>
           <p className="text-[#AFB5C0]">©2020LaslesVPN</p>
         </div>

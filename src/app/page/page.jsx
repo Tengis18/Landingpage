@@ -1,6 +1,7 @@
 import { Footer } from "@/components/footer/Footer";
 import { Headere } from "@/components/haeder/Haeder";
 import { Header } from "@/components/head/Head";
+
 import { Midel } from "@/components/midel/Midell";
 
 export default function HomePage() {
@@ -9,6 +10,7 @@ export default function HomePage() {
       <Header />
       <Headere />
       <Midel />
+
       <Footer />
     </div>
   );

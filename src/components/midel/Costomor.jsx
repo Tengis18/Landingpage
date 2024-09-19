@@ -1,10 +1,13 @@
 import { Midelcon } from "@/app/svg/MidelIcon";
 
-export const Costomor = () => {
+export const Costomer = async () => {
   return (
-    <div className="w-full flex   justify-center  items-center pt-20 mt-[50px]">
-      <div className="container h-[650px] items-center ">
-        <div className="flex flex-col items-center gap-[20px]">
+    <div
+      className="w-full flex   justify-center  items-center pt-32 mt-[50px]"
+      id="Costomer"
+    >
+      <div className="container h-[650px] items-center carousel rounded-box ">
+        <div className="flex flex-col items-center gap-[20px] ">
           <p className="text-[35px] font-bold w-[384px] h-[100px] text-center flex justify-center items-center ">
             Trusted by Thousands of Happy Customer
           </p>
@@ -14,8 +17,8 @@ export const Costomor = () => {
           </p>
         </div>
 
-        <div className="flex  gap-10 pt-20 justify-center ">
-          <div className=" h-[230px] w-[400px] border-2 border-gray-300 rounded-lg  hover:shadow-2xl hover:border-red-500">
+        <div className="flex  gap-10 pt-20 items-center justify-center  ">
+          <div className=" h-[230px] w-[400px] border-2 border-gray-300 rounded-lg carousel-item hover:shadow-2xl hover:border-red-500">
             <div className="ml-10 mt-10 flex gap-5">
               <img src="./fake.png" alt="" className="w-[50px] h-[ 50px]" />
               <div>
@@ -36,29 +39,31 @@ export const Costomor = () => {
             </p>
           </div>
 
-          <div className="h-[230px] w-[400px] border-2 border-gray-300 rounded-lg  hover:shadow-2xl hover:border-red-500">
-            <div className="ml-10 mt-10 flex gap-5">
-              <img src="./face.png" alt="" className="w-[50px] h-[ 50px]" />
-              <div>
-                <p className="text-[18px] w-[142px] font-bold">
-                  Yessica Christy
-                </p>
-                <p className="text-[14px] text-[#4F5665]">Shanxi, China</p>
+          <div className="h-[230px] w-[400px] items-center border-2 border-gray-300 rounded-lg hover:shadow-2xl hover:border-red-500">
+            <div className="carousel-item ">
+              <div className="ml-10  mt-10 flex gap-5">
+                <img src="./face.png" alt="" className="w-[50px] h-[ 50px]" />
+                <div>
+                  <p className="text-[18px] w-[142px] font-bold">
+                    Yessica Christy
+                  </p>
+                  <p className="text-[14px] text-[#4F5665]">Shanxi, China</p>
+                </div>
+                <div className="flex ml-14 gap-1">
+                  <p className="text-[16px ]">4.5</p>
+                  <p className="mt-1 ">
+                    <Midelcon />
+                  </p>
+                </div>
               </div>
-              <div className="flex ml-14 gap-1">
-                <p className="text-[16px ]">4.5</p>
-                <p className="mt-1 ">
-                  <Midelcon />
-                </p>
-              </div>
+              <p className="w-[340px] ml-8 mt-5">
+                “I like it because I like to travel far and still can connect
+                with high speed.”.
+              </p>
             </div>
-            <p className="w-[340px] ml-8 mt-5">
-              “I like it because I like to travel far and still can connect with
-              high speed.”.
-            </p>
           </div>
 
-          <div className=" h-[230px] w-[400px] border-2 border-gray-300 rounded-lg   hover:shadow-2xl hover:border-red-500">
+          <div className=" h-[230px] w-[400px] border-2 border-gray-300 rounded-lg  carousel-item hover:shadow-2xl hover:border-red-500">
             <div className="ml-10 mt-10 flex gap-5">
               <img src="./asian.png" alt="" className="w-[50px] h-[ 50px]" />
               <div>

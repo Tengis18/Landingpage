@@ -8,7 +8,7 @@ import {
 
 export const Headere = () => {
   return (
-    <div className="w-full flex justify-center pt-32">
+    <div className="w-full flex justify-center pt-32" id="Haeder">
       <div className="container  ">
         <div className="flex">
           <div>
@@ -27,29 +27,29 @@ export const Headere = () => {
             <img className="w-[611px] h-[382px]" src="./nvvr.png" alt="" />
           </div>
         </div>
-        <div className="flex justify-center ">
-          <div className="w-[1140px] h-[200px] drop-shadow-xl flex justify-between items-center pt-20 ">
-            <div className="flex ">
+        <div className="flex justify-center items-center   h-[200px] w-[1140px] ml-32  shadow-md mt-20 ">
+          <div className="w-[1140px] h-[200px] flex  items-center ">
+            <div className="flex  justify-center items-center ml-20">
               <HaederIcon />
               <div className="flex flex-col ml-5">
-                <p className="font-bold flex  items-center">90+</p>
+                <p className="font-bold flex  ">90+</p>
                 <p>Users</p>
               </div>
             </div>
-            <div>
+            <div className="ml-48">
               <LineIcon />
             </div>
-            <div className="flex ">
+            <div className="flex justify-center ml-32  items-center">
               <HaerIcon />
               <div className="flex flex-col ml-5">
                 <p className="font-bold flex  items-center">30+</p>
                 <p>Loations</p>
               </div>
             </div>
-            <div>
+            <div className="ml-48">
               <LineIcon />
             </div>
-            <div className="flex ">
+            <div className="flex  items-center ml-20 justify-center">
               <HaedrIcon />
               <div className="flex flex-col ml-5">
                 <p className="font-bold flex  items-center">50+</p>
