@@ -23,10 +23,13 @@ export const Header = () => {
           </button>
         </div>
         <div className="flex gap-[20px] items-center">
-          <div className="btn btn-ghost rounded-[30px]">Sign in</div>
-          <div className="w-[150px] border border-red-500 text-red-500  font-bold flex justify-center rounded-[30px] ">
-            Sign up
+          <div className="btn btn-ghost rounded-[30px] hover:bg-red-500 hover:text-white hover:w-[150px]   hover:font-bold hover:flex justify-center ">
+            Sign in
           </div>
+
+          <button className="w-[150px] border border-red-500 text-red-500  font-bold flex justify-center rounded-[30px] hover:bg-red-500 hover:text-white">
+            Sign up
+          </button>
         </div>
       </div>
     </div>

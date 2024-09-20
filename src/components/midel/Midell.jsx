@@ -47,7 +47,7 @@ export const Midel = () => {
               <p className="text-[30px] font-bold flex justify-center mt-32 ">
                 Free
               </p>
-              <div className="w-[177px] h-[45px] items-center ml-20 mt-5 border border-red-500 text-red-500 font-bold flex justify-center rounded-[30px]">
+              <div className="w-[177px] h-[45px] items-center ml-20 mt-5 border hover:bg-red-500 hover:text-white   border-red-500 text-red-500 font-bold flex justify-center rounded-[30px]">
                 Select
               </div>
             </div>
@@ -84,7 +84,7 @@ export const Midel = () => {
               <p className="text-[30px] font-bold flex justify-center mt-20 ">
                 $9 / mo
               </p>
-              <div className="w-[177px] h-[45px] items-center ml-20 mt-5 border border-red-500 text-red-500 font-bold flex justify-center rounded-[30px]">
+              <div className="w-[177px] h-[45px] items-center ml-20 mt-5 border hover:bg-red-500 hover:text-white   border-red-500 text-red-500 font-bold flex justify-center rounded-[30px]">
                 Select
               </div>
             </div>
@@ -125,7 +125,7 @@ export const Midel = () => {
               <p className="text-[30px] font-bold flex justify-center mt-10 ">
                 $12 / mo
               </p>
-              <div className="w-[177px] h-[45px] items-center ml-20 mt-5 border border-red-500 bg-red-500  text-white font-bold flex justify-center rounded-[30px]">
+              <div className="w-[177px] h-[45px] items-center ml-20 mt-5 border border-red-500 text-red-500 hover:bg-red-500 hover:text-white   font-bold flex justify-center rounded-[30px]">
                 Select
               </div>
             </div>
