@@ -1,9 +1,10 @@
 import { Midelcon } from "@/app/svg/MidelIcon";
+import { Card } from "./card";
 
 export const Costomer = async () => {
   return (
     <div
-      className="w-full flex   justify-center  items-center pt-32 mt-[50px]"
+      className="w-full flex   justify-center  relative  items-center pt-32 mt-[50px]"
       id="Costomer"
     >
       <div className="container h-[650px] items-center carousel rounded-box ">
@@ -83,6 +84,9 @@ export const Costomer = async () => {
             </p>
           </div>
         </div>
+      </div>
+      <div className="absolute bottom-[-150px] ml-20 left-0 ">
+        <Card />
       </div>
     </div>
   );

@@ -1,13 +1,9 @@
 import { FooterIcon, InsdaIcon, TwiterIcon } from "@/app/svg/FooterIcon";
 import Link from "next/link";
-import { Card } from "../midel/card";
 
 export const Footer = () => {
   return (
     <div className="w-full flex bg-gray-100 justify-center " id="Footer">
-      <div className="absolute mb-32">
-        <Card />
-      </div>
       <div className="container flex h-[563px] pt-44 justify-between">
         <div>
           <div className="pt-20">
